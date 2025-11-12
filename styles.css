@@ -1,8 +1,10 @@
 /*  your css code here. If applicable */
 body{
+	margin:0;
+	padding:0;
 	display:flex;
 	position:relative;
-	height:100vh;
+	/* height:100vh; */
 	/* height:100%; */
 	/* width:100%; */
 	align-items:center;
@@ -22,5 +24,5 @@ div{
 	position:absolute;
 	top:50%;
 	left:50%;
-	transform:translate(-50%, -50%)
+	transform:translate(50%, 50%)
 }
